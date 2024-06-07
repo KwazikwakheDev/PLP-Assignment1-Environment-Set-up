@@ -17,5 +17,5 @@ I then downloaded python and installed afterwards navigated to vs code to instal
 
 I havent confiured MySQL because I am not really familiar with it.
 
-Challenges faced wash to initialize the repository on my local machine and how to get to github
+Challenges faced wash to initialize the repository on my local machine and how to get to github.
 
