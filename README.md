@@ -1,21 +1,100 @@
-#Environment Set up
-This is assignment one of week two which deals with setting up the environment.
-The first task was to select the preferred the Operating system(OS) and i selected the windows operating system which is windows 11.
-My preffered IDE which is the integrated development  environment I selected to work with visual studio code.
-I installed git and configured it using the commands git config --global user.email and git config --global user.name, these two commands are used to integrate github and git.
+# Developer Environment Setup Guide
 
-Open gitbash
-create a new directory with mkdir "name of directory" after navigate to that directory using cd "created directory"
-and then create a remote repostory with same name as the directory on Github
-afterwards git nit and the git add .
-and then git commit -m"Initial commit"
-run the git remote add origin "url" from the github repository you created
-and then git push -us origin master
-to track chnages we use git status.
+This is the how I set up my environment for Power Learn Project(PLP)
 
-I then downloaded python and installed afterwards navigated to vs code to install the packages. Pip was already installed and i installed maplotlib using the git bash. and also on vs code on explorer i installed maplotib and also code runner and Prettier these are some of the extensions that i installed on vs code. installed python and dart on vs code
+## Table of Contents
+1. [Select Your Operating System (OS)](#1-select-your-operating-system-os)
+2. [Install a Text Editor or Integrated Development Environment (IDE)](#2-install-a-text-editor-or-integrated-development-environment-ide)
+3. [Set Up Version Control System](#3-set-up-version-control-system)
+4. [Install Necessary Programming Languages and Runtimes](#4-install-necessary-programming-languages-and-runtimes)
+5. [Install Package Managers](#5-install-package-managers)
+6. [Configure a Database (MySQL)](#6-configure-a-database-mysql)
+7. [Set Up Development Environments and Virtualization (Optional)](#7-set-up-development-environments-and-virtualization-optional)
+8. [Explore Extensions and Plugins](#8-explore-extensions-and-plugins)
+9. [Document Your Setup](#9-document-your-setup)
+10. [Sample Project and Reflection](#10-sample-project-and-reflection)
 
-I havent confiured MySQL because I am not really familiar with it.
+## 1. Select Your Operating System (OS)
+Chose an operating system that best suits my preferences and project requirements which was windows 11
+**Downloade and Installed Windows 11**: [Windows 11 Download](https://www.microsoft.com/software-download/windows11)
 
-Challenges faced wash to initialize the repository on my local machine and how to get to github.
+## 2. Installed a Integrated Development Environment (IDE)
+Select and install a text editor or IDE suitable for your programming languages and workflow.
+I choose the Visual Studio code because of it user interface.
+**Download and Install Visual Studio Code**: [Visual Studio Code Download](https://code.visualstudio.com/Download)
+
+## 3. Set Up Version Control System
+Installed Git and configured it into my local machine. I already had a GitHub account for hosting my repositories. Initialized a Git repository for my project and made my  first commit.
+
+**GitHub**: [GitHub](https://github.com)
+### Steps:
+1. **Install Git**:
+    - Windows: Downloaded the Git installer from [git-scm.com](https://git-scm.com/download/win) and followed the installation instructions.
+2. **Configure Git**:
+    git config --global user.name "Your Name"
+    git config --global user.email "your.email@example.com"
+    
+3. **Create a GitHub Account**:
+    - Sign up at [GitHub](https://github.com).
+4. **Initialize a Git Repository**:
+    mkdir my-project
+    cd my-project
+    git init
+    echo "# My Project" > README.md
+    git add README.md
+    git commit -m "Initial commit"
+    git branch -M main
+    git remote add origin https://github.com/yourusername/my-project.git
+    git push -u origin main
+
+## 4. Install Necessary Programming Languages and Runtimes
+Install programming languages required for your project and their respective compilers, interpreters, or runtimes.
+
+**Install Python**: [Python Download](http://www.python.org)
+### Steps:
+1. **Download Python** from the official [Python website](http://www.python.org).
+2. **Install Python**:
+    - Run the installer and follow the instructions, ensuring you check the option to add Python to your PATH.
+
+## 5. Install Package Managers
+Installed package managers like pip (for Python).
+### Steps:
+1. **Verify pip installation**:
+    pip --version
+2. **Upgrade pip** (if necessary):
+    python -m pip install --upgrade pip
+
+## 6. Configure a Database (MySQL)
+Downloaded and Installed MySQL database.
+But my problem is that i could not configure it 
+**Download MySQL**: [MySQL Installer](https://dev.mysql.com/downloads/windows/installer/5.7.html)
+### Steps:
+1. **Download the MySQL Installer** from the [MySQL website](https://dev.mysql.com/downloads/windows/installer/5.7.html).
+2. **Run the installer**
+
+## 7. Set Up Development Environments and Virtualization (Optional)
+I dont know much about Virtulization.
+But this are the following virtualization tools
+### Tools:
+- **Docker**: [Docker Download](https://www.docker.com/products/docker-desktop)
+- **VirtualBox**: [VirtualBox Download](https://www.virtualbox.org/wiki/Downloads)
+
+## 8. Explore Extensions and Plugins
+I chose to installed the following extensions and Plugins
+
+### Installed Extensions and Plugins Explore Visual Studio Code:
+- **Python**: [Python Extension for VS Code](https://marketplace.visualstudio.com/items?itemName=ms-python.python)
+- **GitLens**: [GitLens Extension](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens)
+- **Prettier**: [Prettier - Code formatter](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
+-**Live Server**:[Live Server]()
+-Code Runner:
+-Live Server:
+-Live Preview:
+-**ESLint**: [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
+-**Error Lens**: [Error Lens](https://marketplace.visualstudio.com/items?itemName=usernamehw.errorlens)
+
+
+### Reflection:
+I couldn't configure MySQL and I couldnt set Up Development Environments and Virtualization.
+
 
